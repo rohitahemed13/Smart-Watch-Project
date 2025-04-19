@@ -14,8 +14,8 @@ for (let i = 0; i < ringButtons.length; i++) {
     event.target.classList.remove("border-gray-300");
 
     const productImage = document.getElementById("product-image");
-    // productImage.src = "../images/gray.png";
-    // productImage.src = `../images/${color}.png`;
+    productImage.src = "../images/gray.png";
+    productImage.src = `../images/${color}.png`;
     productImage.src = productImageBase + color + ".png";
   });
 }
